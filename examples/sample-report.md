@@ -24,9 +24,9 @@ outage. Confidence: high.
 
 **Part count approaching the delay threshold** — `analytics.events_local`
 
-- Parts in the busiest partition: 244
-- `parts_to_delay_insert`: 300 (read from `system.merge_tree_settings`)
-- 244 / 300 = 81%, past the 80% warning line
+- Parts in the busiest partition: 810
+- `parts_to_delay_insert`: 1000 (read from `system.merge_tree_settings`, not assumed)
+- 810 / 1000 = 81%, past the 80% warning line
 
 Confidence: high.
 

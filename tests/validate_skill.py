@@ -4,10 +4,10 @@
 Checks that each query parses, that every referenced system table exists and
 that every referenced column exists. Uses chDB (embedded ClickHouse).
 """
+import os
 import re
 import sys
-import os
-import os
+
 import chdb
 
 SKILL = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "SKILL.md")
